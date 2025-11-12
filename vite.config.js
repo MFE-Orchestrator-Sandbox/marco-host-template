@@ -9,7 +9,7 @@ export default defineConfig({
     federation({
       name: 'app',
       remotes: {
-        
+        'remote': 'https://console.mfe-orchestrator.dev/api/serve/mfe/files/6914a7ce9c403bb266ee34bd/DEV/remote/assets/remoteEntry.js',
       },
       shared: ['react','react-dom']
     })
